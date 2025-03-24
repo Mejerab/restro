@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font {
+    font-family: "Jost", serif;
+}
+
+.tra {
+    transition: all .3s ease-in-out;
+}
+
+.but .sec {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.but:hover .sec {
+    visibility: visible;
+    opacity: 1;
+}
+
+.but:hover span {
+    margin-left: -1.8rem;
+}
+
+.but:hover .ttt {
+    margin-left: -3.8rem;
+}
+
+.but:hover .spa {
+    color: #FE6A3A;
+}
+
+.but:hover .whi {
+    color: #fff;
+}
+
+.but:hover .first {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.rotateBg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0e7258;
+    margin-top: 18px;
+    inset: 0;
+    z-index: 1;
+    transform-origin: center;
+    border-radius: 0.5rem;
+    transform: rotate(-3deg);
+}
+
+@keyframes rot {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.rot {
+    animation: rot 4s .2ms infinite;
+}
+
+.wave {
+    animation: moveTheWave 2400ms linear infinite;
+    stroke-dasharray: 0 16 101 16;
+    stroke: #FE6A3A;
+}
+
+.wavee {
+    animation: moveTheWave 2400ms linear infinite;
+    stroke-dasharray: 0 16 101 16;
+    stroke: #32E7B9;
+}
+
+.green-wave {
+    animation: moveTheWave 2400ms linear infinite;
+    stroke-dasharray: 0 16 101 16;
+    stroke: #0E7258;
+}
+
+@keyframes moveTheWave {
+
+    0% {
+        stroke-dashoffset: 0;
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        stroke-dashoffset: -133;
+        transform: translate3d(-90px, 0, 0);
+    }
+
+}
+
+.or-star .MuiRating-icon .MuiRating-iconFilled .css-1sagf1d-MuiRating-icon {
+    color: #FE6A3A !important;
+}
+
+.or-star .css-i0l71t-MuiRating-root {
+    color: #FE6A3A !important;
+    font-size: 18px !important;
+}
+
+.css-1ckov0h-MuiSvgIcon-root {
+    width: 1.3rem;
+}
+
+.swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+    background-color: #FE6A3A !important;
+    position: relative;
+    margin: 0 6px !important;
+}
+
+.swiper-pagination-bullet-active::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #FE6A3A;
+}
+
+.rate .css-i0l71t-MuiRating-root {
+    color: #FE6A3A !important;
+    font-size: 14px !important;
+}
+
+.bg-test .swiper-pagination-bullets {
+    background-color: #FFF6F3 !important;
+    width: fit-content !important;
+    padding: 0 24px !important;
+    height: 42px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translate(-50%);
+}
+
+.swiper-pagination-bullets {
+    background-color: transparent !important;
+}
+
+.drop ul {
+    visibility: hidden;
+    opacity: 0;
+    top: 5rem;
+}
+
+.drop:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 3rem;
+}
+
+.drop2 ul {
+    visibility: hidden;
+    opacity: 0;
+    top: 4.5rem;
+}
+
+.drop2:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 2.5rem;
+}
+
+.date::-webkit-calendar-picker-indicator {
+    display: none;
+}

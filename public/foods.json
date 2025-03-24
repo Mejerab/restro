@@ -1,0 +1,712 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.imgur.com/6tFG3a5.png",
+        "name": "Margherita Pizza",
+        "rating": 4.5,
+        "price": 10.99,
+        "discount_price": 8.99,
+        "ingredients": [
+            "Tomato Sauce",
+            "Mozzarella",
+            "Basil"
+        ],
+        "type": "pizza"
+    },
+    {
+        "id": 2,
+        "image": "https://i.imgur.com/t9uDcYM.png",
+        "name": "Pepperoni Pizza",
+        "rating": 4.8,
+        "price": 12.99,
+        "discount_price": 10.99,
+        "ingredients": [
+            "Pepperoni",
+            "Mozzarella",
+            "Tomato Sauce"
+        ],
+        "type": "pizza"
+    },
+    {
+        "id": 3,
+        "image": "https://i.imgur.com/OY8lAZp.png",
+        "name": "BBQ Chicken Pizza",
+        "rating": 4.6,
+        "price": 13.99,
+        "discount_price": 11.99,
+        "ingredients": [
+            "BBQ Sauce",
+            "Chicken",
+            "Mozzarella"
+        ],
+        "type": "pizza"
+    },
+    {
+        "id": 4,
+        "image": "https://i.imgur.com/WXrxOO1.png",
+        "name": "Veggie Pizza",
+        "rating": 4.3,
+        "price": 11.99,
+        "discount_price": 9.99,
+        "ingredients": [
+            "Bell Peppers",
+            "Olives",
+            "Onions",
+            "Mozzarella"
+        ],
+        "type": "pizza"
+    },
+    {
+        "id": 5,
+        "image": "https://i.imgur.com/q6b0wkH.png",
+        "name": "Hawaiian Pizza",
+        "rating": 4.2,
+        "price": 14.99,
+        "discount_price": 12.99,
+        "ingredients": [
+            "Ham",
+            "Pineapple",
+            "Mozzarella",
+            "Tomato Sauce"
+        ],
+        "type": "pizza"
+    },
+    {
+        "id": 6,
+        "image": "https://i.imgur.com/PBTU22S.png",
+        "name": "Buffalo Pizza",
+        "rating": 4.4,
+        "price": 15.99,
+        "discount_price": 13.99,
+        "ingredients": [
+            "Buffalo Sauce",
+            "Chicken",
+            "Mozzarella"
+        ],
+        "type": "pizza"
+    },
+    {
+        "id": 7,
+        "image": "https://i.imgur.com/JJ4NGWC.png",
+        "name": "Four Cheese Pizza",
+        "rating": 4.7,
+        "price": 16.99,
+        "discount_price": 14.99,
+        "ingredients": [
+            "Mozzarella",
+            "Cheddar",
+            "Parmesan",
+            "Gorgonzola"
+        ],
+        "type": "pizza"
+    },
+    {
+        "id": 8,
+        "image": "https://i.imgur.com/r4ty27p.png",
+        "name": "Meat Lover's Pizza",
+        "rating": 4.9,
+        "price": 17.99,
+        "discount_price": 15.99,
+        "ingredients": [
+            "Pepperoni",
+            "Ham",
+            "Sausage",
+            "Bacon",
+            "Mozzarella"
+        ],
+        "type": "pizza"
+    },
+    {
+        "id": 9,
+        "image": "https://i.imgur.com/DKRAHJl.png",
+        "name": "Coca-Cola",
+        "rating": 4.8,
+        "price": 1.99,
+        "discount_price": 1.49,
+        "ingredients": [
+            "Carbonated Water",
+            "Sugar",
+            "Flavorings"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 10,
+        "image": "https://i.imgur.com/qBNXGyg.png",
+        "name": "Pepsi",
+        "rating": 4.7,
+        "price": 1.89,
+        "discount_price": 1.39,
+        "ingredients": [
+            "Carbonated Water",
+            "Sugar",
+            "Flavorings"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 11,
+        "image": "https://i.imgur.com/6tFG3a5.png",
+        "name": "Lemonade",
+        "rating": 4.6,
+        "price": 2.99,
+        "discount_price": 2.49,
+        "ingredients": [
+            "Lemon Juice",
+            "Sugar",
+            "Water"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 12,
+        "image": "https://i.imgur.com/t9uDcYM.png",
+        "name": "Iced Tea",
+        "rating": 4.3,
+        "price": 3.49,
+        "discount_price": 2.99,
+        "ingredients": [
+            "Tea",
+            "Sugar",
+            "Lemon"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 13,
+        "image": "https://i.imgur.com/OY8lAZp.png",
+        "name": "Orange Juice",
+        "rating": 4.5,
+        "price": 3.99,
+        "discount_price": 3.49,
+        "ingredients": [
+            "Orange",
+            "Water",
+            "Sugar"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 14,
+        "image": "https://i.imgur.com/WXrxOO1.png",
+        "name": "Mango Smoothie",
+        "rating": 4.8,
+        "price": 4.99,
+        "discount_price": 4.49,
+        "ingredients": [
+            "Mango",
+            "Milk",
+            "Sugar"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 15,
+        "image": "https://i.imgur.com/q6b0wkH.png",
+        "name": "Strawberry Milkshake",
+        "rating": 4.7,
+        "price": 5.99,
+        "discount_price": 5.49,
+        "ingredients": [
+            "Strawberries",
+            "Milk",
+            "Sugar"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 16,
+        "image": "https://i.imgur.com/PBTU22S.png",
+        "name": "Cold Brew Coffee",
+        "rating": 4.6,
+        "price": 4.49,
+        "discount_price": 3.99,
+        "ingredients": [
+            "Coffee",
+            "Water",
+            "Ice"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 17,
+        "image": "https://i.imgur.com/JJ4NGWC.png",
+        "name": "Hot Chocolate",
+        "rating": 4.9,
+        "price": 3.99,
+        "discount_price": 3.49,
+        "ingredients": [
+            "Milk",
+            "Cocoa Powder",
+            "Sugar"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 18,
+        "image": "https://i.imgur.com/r4ty27p.png",
+        "name": "Grilled Chicken",
+        "rating": 4.6,
+        "price": 9.99,
+        "discount_price": 8.49,
+        "ingredients": [
+            "Chicken",
+            "Garlic",
+            "Herbs"
+        ],
+        "type": "lunch"
+    },
+    {
+        "id": 19,
+        "image": "https://i.imgur.com/DKRAHJl.png",
+        "name": "Pasta Alfredo",
+        "rating": 4.5,
+        "price": 12.99,
+        "discount_price": 10.99,
+        "ingredients": [
+            "Pasta",
+            "Cream",
+            "Parmesan"
+        ],
+        "type": "lunch"
+    },
+    {
+        "id": 20,
+        "image": "https://i.imgur.com/qBNXGyg.png",
+        "name": "Caesar Salad",
+        "rating": 4.4,
+        "price": 8.99,
+        "discount_price": 7.99,
+        "ingredients": [
+            "Lettuce",
+            "Croutons",
+            "Caesar Dressing"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 21,
+        "image": "https://i.imgur.com/6tFG3a5.png",
+        "name": "Beef Steak",
+        "rating": 4.8,
+        "price": 18.99,
+        "discount_price": 16.99,
+        "ingredients": [
+            "Beef",
+            "Salt",
+            "Black Pepper",
+            "Herbs"
+        ],
+        "type": "lunch"
+    },
+    {
+        "id": 22,
+        "image": "https://i.imgur.com/t9uDcYM.png",
+        "name": "Fish and Chips",
+        "rating": 4.6,
+        "price": 13.99,
+        "discount_price": 11.99,
+        "ingredients": [
+            "Fish Fillet",
+            "Potatoes",
+            "Tartar Sauce"
+        ],
+        "type": "lunch"
+    },
+    {
+        "id": 23,
+        "image": "https://i.imgur.com/OY8lAZp.png",
+        "name": "Chicken Wrap",
+        "rating": 4.5,
+        "price": 7.99,
+        "discount_price": 6.49,
+        "ingredients": [
+            "Chicken",
+            "Tortilla",
+            "Lettuce",
+            "Mayo"
+        ],
+        "type": "lunch"
+    },
+    {
+        "id": 24,
+        "image": "https://i.imgur.com/WXrxOO1.png",
+        "name": "Biryani",
+        "rating": 4.7,
+        "price": 10.49,
+        "discount_price": 8.99,
+        "ingredients": [
+            "Rice",
+            "Chicken",
+            "Spices"
+        ],
+        "type": "lunch"
+    },
+    {
+        "id": 25,
+        "image": "https://i.imgur.com/q6b0wkH.png",
+        "name": "Chicken Curry",
+        "rating": 4.4,
+        "price": 9.49,
+        "discount_price": 7.99,
+        "ingredients": [
+            "Chicken",
+            "Tomatoes",
+            "Spices"
+        ],
+        "type": "lunch"
+    },
+    {
+        "id": 26,
+        "image": "https://i.imgur.com/PBTU22S.png",
+        "name": "Chocolate Cake",
+        "rating": 4.9,
+        "price": 5.99,
+        "discount_price": 4.99,
+        "ingredients": [
+            "Chocolate",
+            "Flour",
+            "Sugar"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 27,
+        "image": "https://i.imgur.com/JJ4NGWC.png",
+        "name": "Cheesecake",
+        "rating": 4.8,
+        "price": 6.99,
+        "discount_price": 5.99,
+        "ingredients": [
+            "Cheese",
+            "Graham Crackers",
+            "Sugar"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 28,
+        "image": "https://i.imgur.com/r4ty27p.png",
+        "name": "Ice Cream Sundae",
+        "rating": 4.7,
+        "price": 4.49,
+        "discount_price": 3.99,
+        "ingredients": [
+            "Ice Cream",
+            "Chocolate Sauce",
+            "Nuts"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 29,
+        "image": "https://i.imgur.com/DKRAHJl.png",
+        "name": "Apple Pie",
+        "rating": 4.6,
+        "price": 5.49,
+        "discount_price": 4.49,
+        "ingredients": [
+            "Apples",
+            "Flour",
+            "Sugar",
+            "Cinnamon"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 30,
+        "image": "https://i.imgur.com/qBNXGyg.png",
+        "name": "Tiramisu",
+        "rating": 4.7,
+        "price": 6.49,
+        "discount_price": 5.49,
+        "ingredients": [
+            "Coffee",
+            "Mascarpone",
+            "Ladyfingers"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 31,
+        "image": "https://i.imgur.com/6tFG3a5.png",
+        "name": "Brownie",
+        "rating": 4.8,
+        "price": 3.99,
+        "discount_price": 3.49,
+        "ingredients": [
+            "Chocolate",
+            "Flour",
+            "Walnuts"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 32,
+        "image": "https://i.imgur.com/t9uDcYM.png",
+        "name": "Greek Salad",
+        "rating": 4.5,
+        "price": 7.99,
+        "discount_price": 6.99,
+        "ingredients": [
+            "Tomatoes",
+            "Cucumbers",
+            "Feta",
+            "Olives"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 33,
+        "image": "https://i.imgur.com/OY8lAZp.png",
+        "name": "Cobb Salad",
+        "rating": 4.6,
+        "price": 8.99,
+        "discount_price": 7.99,
+        "ingredients": [
+            "Lettuce",
+            "Eggs",
+            "Bacon",
+            "Avocado"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 34,
+        "image": "https://i.imgur.com/WXrxOO1.png",
+        "name": "Kale Salad",
+        "rating": 4.4,
+        "price": 9.99,
+        "discount_price": 8.99,
+        "ingredients": [
+            "Kale",
+            "Cranberries",
+            "Almonds"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 35,
+        "image": "https://i.imgur.com/q6b0wkH.png",
+        "name": "Quinoa Salad",
+        "rating": 4.3,
+        "price": 10.49,
+        "discount_price": 9.49,
+        "ingredients": [
+            "Quinoa",
+            "Cucumber",
+            "Tomatoes",
+            "Mint"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 36,
+        "image": "https://i.imgur.com/PBTU22S.png",
+        "name": "Spinach Salad",
+        "rating": 4.2,
+        "price": 7.49,
+        "discount_price": 6.49,
+        "ingredients": [
+            "Spinach",
+            "Strawberries",
+            "Feta"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 37,
+        "image": "https://i.imgur.com/JJ4NGWC.png",
+        "name": "Avocado Salad",
+        "rating": 4.6,
+        "price": 9.49,
+        "discount_price": 8.49,
+        "ingredients": [
+            "Avocado",
+            "Lettuce",
+            "Lime"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 38,
+        "image": "https://i.imgur.com/r4ty27p.png",
+        "name": "Taco Salad",
+        "rating": 4.8,
+        "price": 12.49,
+        "discount_price": 11.49,
+        "ingredients": [
+            "Ground Beef",
+            "Tortilla Chips",
+            "Lettuce"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 39,
+        "image": "https://i.imgur.com/DKRAHJl.png",
+        "name": "Pasta Salad",
+        "rating": 4.5,
+        "price": 8.49,
+        "discount_price": 7.49,
+        "ingredients": [
+            "Pasta",
+            "Bell Peppers",
+            "Italian Dressing"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 40,
+        "image": "https://i.imgur.com/qBNXGyg.png",
+        "name": "Cauliflower Salad",
+        "rating": 4.3,
+        "price": 9.99,
+        "discount_price": 8.99,
+        "ingredients": [
+            "Cauliflower",
+            "Herbs",
+            "Yogurt"
+        ],
+        "type": "salad"
+    },
+    {
+        "id": 41,
+        "image": "https://i.imgur.com/6tFG3a5.png",
+        "name": "Churros",
+        "rating": 4.7,
+        "price": 4.99,
+        "discount_price": 3.99,
+        "ingredients": [
+            "Flour",
+            "Sugar",
+            "Cinnamon"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 42,
+        "image": "https://i.imgur.com/t9uDcYM.png",
+        "name": "Macarons",
+        "rating": 4.6,
+        "price": 6.99,
+        "discount_price": 5.99,
+        "ingredients": [
+            "Egg Whites",
+            "Almond Flour",
+            "Sugar"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 43,
+        "image": "https://i.imgur.com/OY8lAZp.png",
+        "name": "Panna Cotta",
+        "rating": 4.8,
+        "price": 5.49,
+        "discount_price": 4.49,
+        "ingredients": [
+            "Cream",
+            "Vanilla",
+            "Sugar"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 44,
+        "image": "https://i.imgur.com/WXrxOO1.png",
+        "name": "Mousse",
+        "rating": 4.9,
+        "price": 4.99,
+        "discount_price": 3.99,
+        "ingredients": [
+            "Chocolate",
+            "Cream",
+            "Egg Whites"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 45,
+        "image": "https://i.imgur.com/q6b0wkH.png",
+        "name": "Creme Brulee",
+        "rating": 4.7,
+        "price": 6.49,
+        "discount_price": 5.49,
+        "ingredients": [
+            "Cream",
+            "Egg Yolks",
+            "Sugar"
+        ],
+        "type": "dessert"
+    },
+    {
+        "id": 46,
+        "image": "https://i.imgur.com/PBTU22S.png",
+        "name": "Mojito",
+        "rating": 4.6,
+        "price": 4.99,
+        "discount_price": 4.49,
+        "ingredients": [
+            "Mint",
+            "Lime",
+            "Soda"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 47,
+        "image": "https://i.imgur.com/JJ4NGWC.png",
+        "name": "Espresso",
+        "rating": 4.9,
+        "price": 3.99,
+        "discount_price": 3.49,
+        "ingredients": [
+            "Coffee Beans",
+            "Water"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 48,
+        "image": "https://i.imgur.com/r4ty27p.png",
+        "name": "Milk Tea",
+        "rating": 4.7,
+        "price": 2.99,
+        "discount_price": 2.49,
+        "ingredients": [
+            "Tea",
+            "Milk",
+            "Sugar"
+        ],
+        "type": "drinks"
+    },
+    {
+        "id": 49,
+        "image": "https://i.imgur.com/DKRAHJl.png",
+        "name": "Shrimp Fried Rice",
+        "rating": 4.8,
+        "price": 11.99,
+        "discount_price": 9.99,
+        "ingredients": [
+            "Shrimp",
+            "Rice",
+            "Vegetables"
+        ],
+        "type": "lunch"
+    },
+    {
+        "id": 50,
+        "image": "https://i.imgur.com/qBNXGyg.png",
+        "name": "Donuts",
+        "rating": 4.9,
+        "price": 2.99,
+        "discount_price": 2.49,
+        "ingredients": [
+            "Flour",
+            "Sugar",
+            "Oil"
+        ],
+        "type": "dessert"
+    }
+]
