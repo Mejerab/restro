@@ -2,8 +2,37 @@ import { FaCalendarDays, FaFacebookF, FaInstagram, FaXTwitter } from "react-icon
 import { FiPhoneCall } from "react-icons/fi";
 import { IoMailOutline } from "react-icons/io5";
 import { PiYoutubeLogo } from "react-icons/pi";
+import Swal from "sweetalert2";
 
 const Footer1 = () => {
+    const handleSubmit = e => {
+        e.preventDefault();
+        const select = e.target.select.value;
+        if (select !== 'Person') {
+            Swal.fire({
+                title: "Success",
+                text: "Your Reservation has been issued.",
+                icon: "success",
+                background: '#FE6A3A',
+                confirmButtonColor: "#0E7258",
+                color: '#fff',
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Return"
+            });
+        }
+        else {
+            Swal.fire({
+                title: "Error",
+                text: "Select your gender first",
+                icon: "error",
+                background: '#FE6A3A',
+                confirmButtonColor: "#0E7258",
+                color: '#fff',
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Return"
+            });
+        }
+    }
     return (
         <div className="bg-[url(https://i.imgur.com/Ynt5iHi.png)] bg-cover w-full">
             <div className="max-w-[1320px] mx-auto px-5 2xl:px-0">
@@ -15,18 +44,18 @@ const Footer1 = () => {
                         </svg>
                     </div>
                     <div>
-                        <form className="max-w-[969px] mx-auto mt-20">
+                        <form onSubmit={handleSubmit} className="max-w-[969px] mx-auto mt-20">
                             <div className=" grid grid-cols-3 gap-x-8 gap-y-7">
-                                <input type="text" className="input text-[19px] focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" placeholder="Full Name:" />
-                                <input type="text" className="input text-[19px] focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" placeholder="Email Address:" />
-                                <input type="text" className="input text-[19px] focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" placeholder="Phone:" />
-                                <select className="px-4 select focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] text-[19px] border border-[#201F1B] bg-white" defaultValue='Person'>
+                                <input required data-aos='fade-up' type="text" className="input text-[19px] focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" placeholder="Full Name:" />
+                                <input required data-aos='fade-down' type="text" className="input text-[19px] focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" placeholder="Email Address:" />
+                                <input required data-aos='fade-up' type="text" className="input text-[19px] focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" placeholder="Phone:" />
+                                <select name="select" data-aos='fade-up' className="px-4 select focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] text-[19px] border border-[#201F1B] bg-white" defaultValue='Person'>
                                     <option disabled>Person</option>
                                     <option>Male</option>
                                     <option>Female</option>
                                 </select>
-                                <input type="date" className="input text-[19px] appearance-none focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" />
-                                <input type="time" className="input text-[19px] appearance-none focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" />
+                                <input required data-aos='fade-down' type="date" className="input text-[19px] appearance-none focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" />
+                                <input required data-aos='fade-up' type="time" className="input text-[19px] appearance-none focus:outline-[#201F1B] w-[303px] h-[56px] rounded-full text-[#201F1B] placeholder:text-[#201F1B] border border-[#201F1B] bg-white" />
                             </div>
                             <div className="mt-12 text-center">
                                 <button className="btn relative but tra w-[303px] h-[50px] rounded-full hover:bg-[#201F1B] bg-[#FE6A3A] border-0 font font-semibold text-[15px] text-white">
@@ -40,7 +69,7 @@ const Footer1 = () => {
                         </form>
                     </div>
                 </div>
-                <div className="border border-[#D4BC41] border-l-0 border-r-0 grid grid-cols-5">
+                <div data-aos='fade-up' className="border border-[#D4BC41] border-l-0 border-r-0 grid grid-cols-5">
                     <div className="col-span-2 py-20 border-r border-[#D4BC41]">
                         <img className="mb-16" src="https://i.imgur.com/NqNmVdE.png" alt="" />
                         <div className="flex items-center text-[#201F1B] text-[19px] gap-x-3">
@@ -87,10 +116,10 @@ const Footer1 = () => {
                         </ul>
                     </div>
                     <div className=" mx-auto py-20 space-y-3 text-[#201F1B] font-medium text-[19px]">
-                            <h4 className="mb-5">Opening Hour</h4>
-                            <p className="pt-3">Monday - Friday <br />
+                        <h4 className="mb-5">Opening Hour</h4>
+                        <p className="pt-3">Monday - Friday <br />
                             07:00 aM to 10:30 PM</p>
-                            <p className="pt-5">Saturday - Sunday <br />
+                        <p className="pt-5">Saturday - Sunday <br />
                             08:00 aM to 09:30 PM</p>
                     </div>
                 </div>

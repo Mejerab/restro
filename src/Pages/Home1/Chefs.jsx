@@ -11,7 +11,7 @@ const Chefs = () => {
             </div>
             <div className="py-72 max-w-[1320px] mx-auto px-5 2xl:px-0">
                 <PointHook text={'Meet Our Master Chefs'} white />
-                <div className="mt-14 text-white grid grid-cols-5 gap-x-9">
+                <div data-aos='fade-down' className="mt-14 text-white grid grid-cols-5 gap-x-9">
                     <div className="flex flex-col justify-center items-center">
                         <img src="https://i.imgur.com/KbolP7c.png" alt="" />
                         <h4 className="font-medium text-[25px]">Ronald Richards</h4>

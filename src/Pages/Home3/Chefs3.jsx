@@ -7,7 +7,7 @@ const Chefs3 = () => {
                 <div className="text-center">
                     <PointHook2 head={'our master chefs'} text={'Meet Our Master Chefs'} center yellow />
                 </div>
-                <div className="mt-14 text-white grid grid-cols-5 gap-x-9">
+                <div data-aos='fade-down' className="mt-14 text-white grid grid-cols-5 gap-x-9">
                     <div className="flex flex-col justify-center items-center">
                         <img src="https://i.imgur.com/KbolP7c.png" alt="" />
                         <h4 className="font-medium text-[25px]">Ronald Richards</h4>

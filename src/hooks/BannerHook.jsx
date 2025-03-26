@@ -6,7 +6,7 @@ const BannerHook = ({ head, link, linkText }) => {
         <>
             <div className="bg-[url(https://i.imgur.com/3DF0tfI.jpeg)] bg-no-repeat bg-center bg-cover">
                 <div className="bg-gradient-to-r from-[#201F1BB8] via-[#201F1BB8] to-[#201F1B00] h-[550px]">
-                    <div className="max-w-[1320px] mx-auto px-5 2xl:px-0 text-white flex flex-col justify-center h-full">
+                    <div data-aos='fade-right' className="max-w-[1320px] mx-auto px-5 2xl:px-0 text-white flex flex-col justify-center h-full">
                         <h4 className="font-medium text-[70px] leading-[90px]">{head}</h4>
                         <p className="text-[23px] leading-[38px] max-w-[645px]">Embark on a culinary journey at Restro Restaurant, where the world’s finest flavors converge.</p>
                     </div>

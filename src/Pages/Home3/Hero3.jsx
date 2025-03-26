@@ -18,7 +18,7 @@ const Hero3 = () => {
     return (
         <div className="max-w-[1500px] mx-auto">
             <div className="bg-[url(https://i.imgur.com/1gB3ilS.jpeg)] pl-20 pr-4 bg-cover bg-center bg-no-repeat rounded-[20px] h-[600px] flex items-center justify-between">
-                <div>
+                <div data-aos='fade-right'>
                     <h4 className="text-[90px] font-semibold text-[#201F1B] leading-[90px]">Bold Flavors, Unforgettable Meals<span className="text-[#FE6A3A]">.</span></h4>
                     <p className="text-[#201F1B] text-[23px] py-4">Embark on a culinary journey at Restro Restaurant, where the world’s finest flavors converge.</p>
                     <button className="btn relative w-[180px] h-[56px] rounded-[10px] border-0 uppercase font-semibold text-[14px] text-white bg-[#FE6A3A] hover:text-[#FE6A3A] hover:bg-white tra">explore menu</button>

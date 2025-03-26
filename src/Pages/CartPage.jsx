@@ -93,8 +93,8 @@ const CartPage = () => {
                         <form className="space-x-4" onSubmit={handleSubmit}>
                             <input name="cuppon" type="text" className="input h-[56px] w-[350px] pl-7 border border-[#E9E9E8] rounded-lg text-[#63625F] placeholder:text-[#63625F] font-medium text-[15px]" placeholder="Coupon Code" />
                             {
-                                enable ? <button className="btn h-full w-[110px] text-white bg-[#0E7258] rounded-lg font-semibold text-[14px] uppercase">Apply</button> :
-                                    <div data-tip="You have already used a cuppon" className="tooltip"><button disabled className="btn h-full w-[110px] text-white bg-[#0E7258] rounded-lg font-semibold text-[14px] uppercase">Apply</button></div>
+                                enable && data.length ? <button className="btn h-full w-[110px] text-white bg-[#0E7258] rounded-lg font-semibold text-[14px] uppercase">Apply</button> :
+                                    <div data-tip="You have already used a cuppon or you haven't selected any item" className="tooltip"><button disabled className="btn h-full w-[110px] text-white bg-[#0E7258] rounded-lg font-semibold text-[14px] uppercase">Apply</button></div>
                             }
                         </form>
                         <p className="text-[#63625F] font-medium pl-1 pt-1"><span className="underline">Note</span>: Cuppon Code is 3646.</p>

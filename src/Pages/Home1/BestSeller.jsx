@@ -29,7 +29,7 @@ const BestSeller = () => {
                     modules={[Pagination]}
                     className="h-[510px]"
                 >
-                    <SwiperSlide><div className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
+                    <SwiperSlide><div data-aos='fade-left' className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
                     <div className="absolute top-4 right-4">
                         <Rating
                             defaultValue={0}
@@ -46,7 +46,7 @@ const BestSeller = () => {
                     <h4 className="font font-medium text-[19px] text-[#201F1B] leading-[28px] w-56 text-center">Crispy roasted salmon fish steak</h4>
                     <p className="font !mb-4 text-[19px] space-x-3 text-[#FE6A3A]"><span className="text-[#D4D4D4] line-through">$70.62</span>   <span>$60.78</span></p>
                 </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
+                    <SwiperSlide><div data-aos='fade-left' className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
                     <div className="absolute top-4 flex justify-between w-full px-4">
                         <p className="w-[60px] h-[20px] text-center text-white rounded-[4px] font text-[13px] bg-[#FE6A3A]">50% Off</p>
                         <Rating
@@ -64,7 +64,7 @@ const BestSeller = () => {
                     <h4 className="font font-medium text-[19px] text-[#201F1B] leading-[28px] w-56 text-center">Baked Honey Glazed Cod Fillet</h4>
                     <p className="font !mb-4 text-[19px] space-x-3 text-[#FE6A3A]"><span className="text-[#D4D4D4] line-through">$70.62</span>   <span>$62.86</span></p>
                 </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
+                    <SwiperSlide><div data-aos='fade-left' className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
                     <div className="absolute top-4 right-4">
                         <Rating
                             defaultValue={0}
@@ -81,7 +81,7 @@ const BestSeller = () => {
                     <h4 className="font font-medium text-[19px] text-[#201F1B] leading-[28px] w-56 text-center">Coconut Crusted Jumbo Prawns</h4>
                     <p className="font !mb-4 text-[19px] space-x-3 text-[#FE6A3A]"><span className="text-[#D4D4D4] line-through">$70.62</span>   <span>$65.59</span></p>
                 </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
+                    <SwiperSlide><div data-aos='fade-left' className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
                     <div className="absolute top-4 flex justify-between w-full px-4">
                         <p className="w-[60px] h-[20px] text-center text-white rounded-[4px] font text-[13px] bg-[#FE6A3A]">45% Off</p>
                         <Rating
@@ -99,7 +99,7 @@ const BestSeller = () => {
                     <h4 className="font font-medium text-[19px] text-[#201F1B] leading-[28px] w-56 text-center">Grilled Garlic Butter Shrimp Skewers</h4>
                     <p className="font !mb-4 text-[19px] space-x-3 text-[#FE6A3A]"><span className="text-[#D4D4D4] line-through">$70.62</span>   <span>$68.25</span></p>
                 </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
+                    <SwiperSlide><div data-aos='fade-left' className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
                     <div className="absolute top-4 right-4">
                         <Rating
                             defaultValue={0}
@@ -116,7 +116,7 @@ const BestSeller = () => {
                     <h4 className="font font-medium text-[19px] text-[#201F1B] leading-[28px] w-56 text-center">Crispy roasted salmon fish steak</h4>
                     <p className="font !mb-4 text-[19px] space-x-3 text-[#FE6A3A]"><span className="text-[#D4D4D4] line-through">$70.62</span>   <span>$60.78</span></p>
                 </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
+                    <SwiperSlide><div data-aos='fade-left' className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
                     <div className="absolute top-4 flex justify-between w-full px-4">
                         <p className="w-[60px] h-[20px] text-center text-white rounded-[4px] font text-[13px] bg-[#FE6A3A]">50% Off</p>
                         <Rating
@@ -134,7 +134,7 @@ const BestSeller = () => {
                     <h4 className="font font-medium text-[19px] text-[#201F1B] leading-[28px] w-56 text-center">Baked Honey Glazed Cod Fillet</h4>
                     <p className="font !mb-4 text-[19px] space-x-3 text-[#FE6A3A]"><span className="text-[#D4D4D4] line-through">$70.62</span>   <span>$62.86</span></p>
                 </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
+                    <SwiperSlide><div data-aos='fade-left' className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
                     <div className="absolute top-4 right-4">
                         <Rating
                             defaultValue={0}
@@ -151,7 +151,7 @@ const BestSeller = () => {
                     <h4 className="font font-medium text-[19px] text-[#201F1B] leading-[28px] w-56 text-center">Coconut Crusted Jumbo Prawns</h4>
                     <p className="font !mb-4 text-[19px] space-x-3 text-[#FE6A3A]"><span className="text-[#D4D4D4] line-through">$70.62</span>   <span>$65.59</span></p>
                 </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
+                    <SwiperSlide><div data-aos='fade-left' className="bg-[url(https://i.imgur.com/pfm6oXH.png)] flex justify-center items-center flex-col w-[303px] h-[413px] space-y-3 relative">
                     <div className="absolute top-4 flex justify-between w-full px-4">
                         <p className="w-[60px] h-[20px] text-center text-white rounded-[4px] font text-[13px] bg-[#FE6A3A]">45% Off</p>
                         <Rating

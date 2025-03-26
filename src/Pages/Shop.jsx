@@ -41,7 +41,7 @@ const Shop = () => {
             </div>
             <div className="max-w-[1320px] mx-auto px-5 2xl:px-0 flex items-start gap-x-12">
                 <SideHook />
-                <div className="w-3/4">
+                <div  className="w-3/4">
                     <div className="flex items-center justify-between h-[54px]">
                         <div className="border border-[#E9E9E8] rounded-lg w-fit px-2">
                             <p className="text-[#63625F] text-[19px] py-3 px-3">Showing 1 - 22 Of 29 Results</p>
@@ -63,7 +63,7 @@ const Shop = () => {
                             data && img.length ?
                                 location.search === '?1' ?
                                     data.slice(0, 12).map((item, idx) =>
-                                        <div key={item.id}>
+                                        <div key={item.id} data-aos='fade-up'>
                                             <Link to={`/food-item?${item.id}`}>
                                                 <div className='h-[303px] rounded-lg border flex justify-center items-center'>
                                                     <img src={img[idx].image} alt="" />
@@ -79,7 +79,7 @@ const Shop = () => {
                                         </div>
                                     ) : location.search === '?2' ?
                                         data.slice(13, 25).map((item, idx) =>
-                                            <div key={item.id}>
+                                            <div key={item.id} data-aos='fade-up'>
                                                 <Link to={`/food-item?${item.id}`}>
                                                     <div className='h-[303px] rounded-lg border flex justify-center items-center'>
                                                         <img src={img.reverse()[idx].image} alt="" />
@@ -93,7 +93,7 @@ const Shop = () => {
                                                 </Link>
                                             </div>) :
                                         data.slice(26, 38).map((item, idx) =>
-                                            <div key={item.id}>
+                                            <div key={item.id} data-aos='fade-up'>
                                                 <Link to={`/food-item?${item.id}`}>
                                                     <div className='h-[303px] rounded-lg border flex justify-center items-center'>
                                                         <img src={img[idx].image} alt="" />

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import PointHook2 from "../../hooks/PointHook2";
 import { Rating } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Menu2 = () => {
     const [data, setData] = useState([]);
@@ -60,7 +61,7 @@ const Menu2 = () => {
                 }
             </div>
             <div className="mx-auto w-fit mt-14">
-                <button className="btn relative w-[190px] hover:border-[#FE6A3A] h-[56px] rounded-[8px] uppercase font-semibold text-[14px] text-white bg-[#FE6A3A] hover:text-[#FE6A3A] hover:bg-white tra">book a table</button>
+                <Link to='/shop?1' className="btn relative w-[190px] hover:border-[#FE6A3A] h-[56px] rounded-[8px] uppercase font-semibold text-[14px] text-white bg-[#FE6A3A] hover:text-[#FE6A3A] hover:bg-white tra">book a table</Link>
             </div>
         </div>
     );

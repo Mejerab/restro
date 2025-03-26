@@ -16,7 +16,7 @@ const Testimonials3 = () => {
         <div className="max-w-[1320px] mx-auto px-0">
             <div className="flex justify-between items-center">
                 <PointHook2 head={'our testimonials'} text={'What client say about us?'} />
-                <div className='flex items-center gap-x-6'>
+                <div data-aos='fade-left' className='flex items-center gap-x-6'>
                     <div id='prev' className='w-[60px] cursor-pointer h-[60px] flex justify-center items-center rounded-full hover:text-white text-[#201F1B] tra bg-transparent border border-[#E9E9E8] hover:bg-[#FE6A3A]'>
                         <FaArrowLeft className='text-sm' />
                     </div>
@@ -26,6 +26,7 @@ const Testimonials3 = () => {
                 </div>
             </div>
             <Swiper
+            data-aos='fade-left'
                 slidesPerView={3}
                 spaceBetween={35}
                 loop={true}

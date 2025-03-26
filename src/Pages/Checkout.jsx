@@ -85,7 +85,7 @@ const Checkout = () => {
                 <BannerHook head={['Checkout']} link={['checkout']} linkText={['checkout']} />
             </div>
             <div className="grid grid-cols-5 items-start max-w-[1320px] mx-auto 2xl:px-0 px-5 gap-x-8">
-                <div className="col-span-3 border border-[#E9E9E8] rounded-[10px] p-12">
+                <div data-aos='fade-right' className="col-span-3 border border-[#E9E9E8] rounded-[10px] p-12">
                     <form onSubmit={handleSubmit}>
                         <div className="flex justify-between">
                             <h3 className="text-[#201F1B] font-medium text-[25px]">Contact</h3>
@@ -212,7 +212,7 @@ const Checkout = () => {
                         </div>
                     </form>
                 </div>
-                <div className="col-span-2 space-y-7 border border-[#E9E9E8] rounded-[10px] p-12">
+                <div data-aos='fade-left' className="col-span-2 space-y-7 border border-[#E9E9E8] rounded-[10px] p-12">
                     {
                         data.length ?
                             data.map(item =>

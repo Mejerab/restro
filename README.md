@@ -11,3 +11,4 @@ Live link: https://restro-restaurant.onrender.com
 6. Day Js
 7. Pegion Maps
 8. Sweet Alert2
+9. AOS Animation

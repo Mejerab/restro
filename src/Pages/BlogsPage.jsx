@@ -35,7 +35,7 @@ const Blogs = () => {
                     <div className="w-3/4 grid grid-cols-2 gap-y-8">
                         {
                             items.map(item =>
-                                <div className="w-[416px] h-[576px] border border-[#E9E9E8] flex flex-col justify-center rounded-lg px-6" key={item.id}>
+                                <div data-aos='fade-up' className="w-[416px] h-[576px] border border-[#E9E9E8] flex flex-col justify-center rounded-lg px-6" key={item.id}>
                                     <img src={item.image} alt="" />
                                     <div className="flex gap-x-6 mt-9">
                                         <p className="text-[13px] font-medium text-[#63625F] uppercase">By: <span className="text-[#0E7258]">roland toski</span></p>

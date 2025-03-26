@@ -24,7 +24,7 @@ const ConfirmReservation = () => {
                             </div>
                             <h4 className='font-medium text-[48px] max-w-[565px]} leading-[58px] text-[#201F1B]'>Get in Touch with Us or <span className="text-[#FE6A3A]">Any Inquiries.</span></h4>
                         </div>
-                        <form className="mt-9 space-y-7">
+                        <form data-aos='fade-right' className="mt-9 space-y-7">
                             <div className="flex justify-between gap-x-7">
                                 <input type="text" className="input w-full h-[56px] text-[19px] text-[#201F1B] placeholder:text-[#201F1B] border border-[#E9E9E8] rounded-[8px]" placeholder="Full Name:" />
                                 <input type="email" className="input w-full h-[56px] text-[19px] text-[#201F1B] placeholder:text-[#201F1B] border border-[#E9E9E8] rounded-[8px]" placeholder="Email Address:" />

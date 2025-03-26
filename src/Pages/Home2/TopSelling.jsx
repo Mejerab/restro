@@ -17,9 +17,9 @@ const TopSelling = () => {
         <div className={`${location.pathname=='/home3'?'max-w-[1500px]':"max-w-[1320px]"} mx-auto 2xl:px-0 px-5 or-star`}>
             <div className="flex items-center justify-between">
                 <PointHook2 head={'popular items'} text={'Top Selling Items'} />
-                <button className="btn relative w-[180px] h-[56px] rounded-[10px] border-[#FE6A3A] uppercase font-semibold text-[14px] text-[#FE6A3A] bg-transparent hover:bg-[#FE6A3A] hover:text-white tra tra">explore menu</button>
+                <button data-aos='fade-left' className="btn relative w-[180px] h-[56px] rounded-[10px] border-[#FE6A3A] uppercase font-semibold text-[14px] text-[#FE6A3A] bg-transparent hover:bg-[#FE6A3A] hover:text-white tra tra">explore menu</button>
             </div>
-            <Swiper
+            <Swiper data-aos='fade-left'
                 slidesPerView={location.pathname==='/home3'?5:4}
                 spaceBetween={36}
                 loop={true}

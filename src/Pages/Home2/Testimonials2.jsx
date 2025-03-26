@@ -12,13 +12,14 @@ import { FaArrowLeft } from 'react-icons/fa';
 
 const Testimonials2 = () => {
     return (
-        <div className="max-w-[1320px] mx-auto px-5 2xl:px-0 relative">
+        <div data-aos='fade-right' className="max-w-[1320px] mx-auto px-5 2xl:px-0 relative">
             <div className='flex items-center gap-x-2 '>
                 <div className="bg-[#0E7258] w-[50px] h-[1px]"></div>
                 <h5 className="text-[#0E7258] font-semibold text-[14px] uppercase">our testimonials</h5>
             </div>
             <h4 className="font-medium text-[48px] leading-[54px] w-[60rem] text-[#201F1B]">We Have Earned Over <span className="text-[#FE6A3A]">6,000</span> Reviews On Google From Our Customers!</h4>
             <Swiper
+                data-aos='fade-left'
                 slidesPerView={2}
                 spaceBetween={30}
                 loop={true}

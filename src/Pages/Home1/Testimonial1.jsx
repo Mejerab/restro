@@ -13,15 +13,17 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 const Testimonial1 = () => {
     return (
         <div className="max-w-[1320px] mx-auto px-5 2xl:px-0 pt-36 relative">
-            <h4 className={`w-[56rem] text-center mx-auto text-[#201F1B] font font-medium text-[54px] leading-[60px]`}>We have earned over <span className="text-[#FE6A3A]">6,000</span> reviews on Google from our customers!</h4>
-            <svg className="mx-auto -mt-2" width="70" height="40" viewBox="5 0 80 40">
-                <path className={`green-wave`} fill="none" strokeWidth="4" strokeLinecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
-            </svg>
+            <div data-aos='fade-up'>
+                <h4 className={`w-[56rem] text-center mx-auto text-[#201F1B] font font-medium text-[54px] leading-[60px]`}>We have earned over <span className="text-[#FE6A3A]">6,000</span> reviews on Google from our customers!</h4>
+                <svg className="mx-auto -mt-2" width="70" height="40" viewBox="5 0 80 40">
+                    <path className={`green-wave`} fill="none" strokeWidth="4" strokeLinecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
+                </svg>
+            </div>
             <div className="text-center my-12">
                 <Rating name="read-only" value={4.5} precision={0.5} readOnly />
                 <h6 className="font-medium text-[19px]">Average Google Rating is <span className="text-[#0E7258]">4.8</span></h6>
             </div>
-            <div className="flex justify-between items-center gap-x-10">
+            <div data-aos='fade-right' className="flex justify-between items-center gap-x-10">
                 <Swiper
                     slidesPerView={2}
                     spaceBetween={30}

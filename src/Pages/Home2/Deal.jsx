@@ -4,7 +4,7 @@ const Deal = () => {
     return (
         <div className="max-w-[1320px] mx-auto px-5 2xl:px-0 rounded-[10px]">
             <div className="bg-[url(https://i.imgur.com/PqO5L9w.png)] rounded-[10px] bg-cover bg-no-repeat w-full h-[400px]">
-                <div className="bg-gradient-to-r from-[#0E181FB2] to-transparent h-full rounded-[10px] text-white flex justify-center pl-16 flex-col gap-y-5">
+                <div data-aos='fade-left' className="bg-gradient-to-r from-[#0E181FB2] to-transparent h-full rounded-[10px] text-white flex justify-center pl-16 flex-col gap-y-5">
                     <div className=" flex items-center gap-x-2">
                         <div className="bg-[#FE6A3A] w-[50px] h-[1px]"></div>
                         <h5 className="text-[#FE6A3A] font-semibold text-[14px] uppercase">Sizzling Deal</h5>

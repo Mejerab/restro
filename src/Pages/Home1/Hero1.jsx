@@ -5,7 +5,7 @@ const Hero1 = () => {
     return (
         <div className="bg-[url(https://i.imgur.com/3S9xRAh.png)] bg-cover relative mx-3 2xl:pt-7 pt-4 pb-44 2xl:pb-24">
             <div className="max-w-[1320px] mx-auto 2xl:px-0 px-5 flex justify-between items-center">
-                <div className="2xl:w-1/2 space-y-5">
+                <div data-aos='fade-right' className="2xl:w-1/2 space-y-5">
                     <h2 className="text-[#201F1B] font font-semibold text-[70px] leading-[80px]">Where Culinary Traditions <span className="rotateBg relative text-white -ml-2"><span className="z-20 relative top-2 px-2">Meet</span></span> Innovation.</h2>
                     <p className="font text-[19px] leading-[32px] w-[33rem] text-[#37352B]">Embark on a culinary journey at Metta Restaurant, where the world’s finest flavors converge.</p>
                     <div className="space-x-5">

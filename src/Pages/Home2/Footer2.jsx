@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 const Footer2 = ({two}) => {
     return (
-        <div className={`bg-[url(https://i.imgur.com/lOMGrFz.png)] bg-cover bg-no-repeat relative ${two&&'!mt-64'}`}>
+        <div data-aos='fade-up' className={`bg-[url(https://i.imgur.com/lOMGrFz.png)] bg-cover bg-no-repeat relative ${two&&'!mt-64'}`}>
             <div className="max-w-[1320px] mx-auto px-5 2xl:px-0">
                 <div className={`${!two&&'pt-28'} grid grid-cols-5`}>
                     <div className={`pb-20 ${two&&'pt-64'}`}>

@@ -22,7 +22,7 @@ const Catagories = () => {
                     </div>
                 </div>
                 <div className="h-[598px] w-full px-9 rounded-[10px] mt-14 bg-white flex justify-between items-center">
-                    <div className="space-y-3">
+                    <div data-aos='fade-right' className="space-y-3">
                         <div className="space-y-2">
                             <div className='flex items-center gap-x-2'>
                                 <div className="bg-[#0E7258] w-[50px] h-[1px]"></div>
@@ -41,7 +41,7 @@ const Catagories = () => {
                         </div>
                         <button className="btn relative w-[190px] h-[56px] rounded-[10px] hover:border-[#FE6A3A] uppercase font-semibold text-[14px] text-white bg-[#FE6A3A] hover:text-[#FE6A3A] hover:bg-white tra">book a table</button>
                     </div>
-                    <img src="https://i.imgur.com/ZzHZ3ez.png" alt="" />
+                    <img data-aos='fade-left' src="https://i.imgur.com/ZzHZ3ez.png" alt="" />
                 </div>
             </div>
         </div>

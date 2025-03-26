@@ -42,7 +42,7 @@ const MenuPage = () => {
             </div>
             <div className="max-w-[1320px] mx-auto px-5 2xl:px-0">
                 <PointHook2 head={'our menu'} text={'Most Popular Food Menus'} center />
-                <div className="my-12 w-[90%] mx-auto flex justify-between">
+                <div data-aos='fade-up' className="my-12 w-[90%] mx-auto flex justify-between">
                     <button onClick={() => setShow(data)} className="btn font-normal focus:border-[#FE6A3A] h-[56px] pr-6 rounded-full bg-transparent border border-[#E9E9E8] text-[19px] text-[#201F1B]"><img className="-ml-2" src="https://i.imgur.com/9cXSVLE.png" alt="" /> All <span className="text-[#BCBCBB]">({data.length})</span></button>
                     <button onClick={() => setShow(pizza)} className="btn font-normal focus:border-[#FE6A3A] h-[56px] pr-6 rounded-full bg-transparent border border-[#E9E9E8] text-[19px] text-[#201F1B]"><img className="-ml-2" src="https://i.imgur.com/8IaSbmd.png" alt="" /> Pizza <span className="text-[#BCBCBB]">({pizza.length})</span></button>
                     <button onClick={() => setShow(dessert)} className="btn font-normal focus:border-[#FE6A3A] h-[56px] pr-6 rounded-full bg-transparent border border-[#E9E9E8] text-[19px] text-[#201F1B]"><img className="-ml-2" src="https://i.imgur.com/b2ubA19.png" alt="" /> Desserts <span className="text-[#BCBCBB]">({dessert.length})</span></button>
@@ -53,7 +53,7 @@ const MenuPage = () => {
                 <div className="grid grid-cols-2 gap-x-8 gap-y-4">
                     {
                         show.slice(0, 24).map(item =>
-                            <div key={item.id} className="border border-[#E9E9E8] hover:bg-[#FFF7F4] hover:border-[#FE6A3A] cursor-pointer tra h-[100px] rounded-[14px] flex justify-between items-center px-6">
+                            <div key={item.id} data-aos={item.id%2===0?'fade-left':'fade-right'} className="border border-[#E9E9E8] hover:bg-[#FFF7F4] hover:border-[#FE6A3A] cursor-pointer tra h-[100px] rounded-[14px] flex justify-between items-center px-6">
                                 <div className="flex items-center gap-x-5">
                                     <img src={item.image} alt="" />
                                     <div>

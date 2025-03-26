@@ -51,11 +51,6 @@ const router = createBrowserRouter([
                 loader: ()=>fetch(`/foods.json`)
             },
             {
-                path:'/cart-page',
-                element: <FoodItems />,
-                loader: ()=>fetch(`/foods.json`)
-            },
-            {
                 path:'/cart',
                 element: <CartPage />,
             },

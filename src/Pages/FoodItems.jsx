@@ -46,7 +46,7 @@ const FoodItems = () => {
                 </div>
                 <div className="max-w-[1320px] mx-auto px-5 2xl:px-0 or-star">
                     <div className="flex justify-between items-start gap-x-12">
-                        <div className="w-1/3 rounded-lg flex justify-center items-center h-[418px] bg-[#FFF7F4]">
+                        <div data-aos='fade-right' className="w-1/3 rounded-lg flex justify-center items-center h-[418px] bg-[#FFF7F4]">
                             <img className="w-4/6" src={img[item.id - 1].image} alt="" />
                         </div>
                         <div className="w-2/3">

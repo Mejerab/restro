@@ -37,8 +37,8 @@ const Menu3 = () => {
                     <img className="" src="https://i.imgur.com/PUzqCCh.png" alt="" />
                     <div className="grid grid-cols-2 gap-x-24 w-3/5 pr-4">
                         {
-                            show.slice(0, 6).map(item =>
-                                <div className="flex w-full h-fit pb-8 border-[#F2DDDA] border-b" key={item.id}>
+                            show.slice(0, 6).map((item, idx) =>
+                                <div data-aos={(idx+1)%2!==0?'fade-right':'fade-left'} className="flex w-full h-fit pb-8 border-[#F2DDDA] border-b" key={item.id}>
                                     <img className="w-[80px] mr-6 h-[80px] p-2 rounded-full bg-white" src={item.image} alt="" />
                                     <div>
                                         <div className="rate flex items-center">

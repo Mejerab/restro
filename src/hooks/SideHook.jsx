@@ -8,7 +8,7 @@ const SideHook = () => {
                 .then(data => setData(data))
         }, [])
     return (
-        <div className="w-1/4 grid space-y-12">
+        <div data-aos='fade-left' className="w-1/4 grid space-y-12">
             <div className="space-y-5 bg-[#FFF7F4] p-[30px] pt-5 rounded-[8px]">
                 <h4 className="text-[#201F1B] font-medium text-[25px]">Search:</h4>
                 <input type="text" className="w-full rounded-lg border border-[#F2DDDA] h-[54px] placeholder:text-[#63625F] text-[#63625F] pl-4 text-[19px]" placeholder="Search here..." />
